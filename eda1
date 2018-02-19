@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<string.h>
+
+int main(){
+	
+	int valor = 10.5545436215643612564321564;
+	char cadena_hola[]="soy la riata" ;  
+	short int numero_x = 3;
+	int numero_y = 2;
+	long int numero_z = 3; 
+	float identificador = valor;
+
+	 	
+	 	
+	printf("el taman-io de un entero de valor 1 es %d bytes \n\n", sizeof(valor));
+ 	printf("el taman-io de una cadena que dice -soy la riata- es %d bytes \n\n", sizeof(cadena_hola));
+ 	printf("el taman-io de un entero corto es %d bytes \n\n", sizeof(numero_x));
+	printf("el taman-io de un entero de valor 2 es %d bytes \n\n", sizeof(numero_y));
+	printf("el taman-io de un entero largo de valor 3 es %d bytes \n\n", sizeof(numero_z));
+	printf("%d bytes \n\n", sizeof(identificador));
+	
+	
+	return 0;
+	
+	
+}
